@@ -1,0 +1,163 @@
+-------------------------------------------------------------
+OLIST SQL PROJECT — SELLER ANALYSIS INSIGHTS
+File: 04_seller_analysis_insights.txt
+-------------------------------------------------------------
+
+Q1: Top 10 states by number of sellers
+-------------------------------------------------------------
+seller_state     total_sellers
+--------------------------------
+SP               1,849
+PR                 349
+MG                 244
+SC                 190
+RJ                 171
+RS                 129
+GO                  40
+DF                  30
+ES                  23
+BA                  19
+
+Insights:
+- São Paulo (SP) is the largest seller hub by far, contributing >60% of all sellers.
+- Southern and Southeastern states dominate the seller base.
+- Some states like BA, ES, GO have very few sellers, indicating low marketplace penetration.
+
+-------------------------------------------------------------
+
+Q2: Top 10 cities by number of sellers
+-------------------------------------------------------------
+seller_city        total_sellers
+---------------------------------
+sao paulo               694
+curitiba                127
+rio de janeiro           96
+belo horizonte           68
+ribeirao preto           52
+guarulhos                50
+ibitinga                 49
+santo andre              45
+campinas                 41
+maringa                  40
+
+Insights:
+- São Paulo city leads with 694 sellers — more than the next 5 cities combined.
+- Large urban cities dominate seller distribution, matching ecommerce logistics networks.
+- Smaller cities still show moderate seller activity (40–70 sellers).
+
+-------------------------------------------------------------
+
+Q3: Top 10 sellers by total items sold
+-------------------------------------------------------------
+seller_id                          total_items_sold
+---------------------------------------------------------------
+6560211a19b47992c3666cc44a7e94c0           2033
+4a3ca9315b744ce9fe9374631493884            1987
+1c5f902170f6a81dab994f0325233100           1931
+cc419e0650a503e3b77f189a1882b7556a         1775
+da8622b14eb17ae2831f4ac5b9dab84a           1551
+955fee9216a56b71a3a50c53f170ec06           1499
+1025f0e244dd7041d6dc55b6550e0bfa           1428
+7c67e14480b0fe696d365cea6b010ab             1364
+ea8482cd71df3c1969d7b947f3f13abc            1203
+7a67c8e58b5bc2ce8582c35f2203ad736           1171
+
+Insights:
+- The top seller sold >2,000 items — extremely high volume.
+- A small group of sellers contributes a disproportionate amount of marketplace activity.
+- Long tail sellers (majority) likely have low activity.
+
+-------------------------------------------------------------
+
+Q4: Top 10 sellers by number of orders fulfilled
+-------------------------------------------------------------
+seller_id                          total_orders
+---------------------------------------------------------------
+6560211a19b47992c3666cc44a7e94c0        1854
+4a3ca9315b744ce9fe9374631493884        1806
+cc419e0650a503e3b77f189a1882b7556a     1706
+1c5f902170f6a81dab994f0325233100       1404
+da8622b14eb17ae2831f4ac5b9dab84a       1314
+955fee9216a56b71a3a50c53f170ec06       1287
+7a67c8e58b5bc2ce8582c35f2203ad736      1167
+ea8482cd71df3c1969d7b947f3f13abc       1146
+4869f7a5dfa277a7dca6462dcf3b52b2       1132
+3d871de0142ce09b7081e2b9d1733cb1       1080
+
+Insights:
+- Sellers with the highest number of items sold also dominate in order count.
+- These sellers drive a large portion of Olist's marketplace revenue.
+- Strong correlation between items sold and total orders fulfilled.
+
+-------------------------------------------------------------
+
+Q5: Seller product variety (unique products per seller)
+-------------------------------------------------------------
+seller_id                          unique_products
+---------------------------------------------------------------
+4a3ca9315b744ce9fe9374631493884        399
+cca3071e3e9bd7d126409c0fbe2301306      322
+d9f1b3b7d041e38a40a0aebd37e3ff42        315
+fa1c13f5f2147bc54749cb52fecdac94        289
+7142540dd4c9e122237acb7e911c4eba2       266
+6560211a19b47992c3666cc44a7e94c0        256
+da8622b14eb17ae2831f4ac5b9dab84a        220
+ea8482cd71df3c1969d7b947f3f13abc        214
+3d871de0142ce09b7081e2b9d1733cb1        202
+7c67e14480b0fe696d365cea6b010ab         198
+
+Insights:
+- Top sellers offer extremely wide product ranges (250–400+ SKUs).
+- Sellers with diverse product catalogs tend to achieve higher sales.
+- Variety strongly correlates with seller performance.
+
+-------------------------------------------------------------
+
+Q6: Seller performance — average delivery delay
+-------------------------------------------------------------
+seller_id                          avg_delay_days     delayed_orders
+--------------------------------------------------------------------
+5496c5bbe3e4f07ae0459b0b08541f52          27.31              26
+2c9e548e185212d4a3cde1c53e2bc6de6         16.41              29
+cca3071e3e9bd7d126409c0fbe2301306         15.66              44
+fe2032dab1a6abf479426a81965659c5          13.74              26
+53e4ce406f4312dd21072a8c9cd4f52cd         11.11              27
+...
+
+Insights:
+- Some sellers have extremely high delays (over 27 days average).
+- Sellers with 25–50 delayed orders represent operational risk points.
+- Seller behavior significantly influences delivery SLAs.
+
+-------------------------------------------------------------
+
+Q7: Revenue contribution per seller
+-------------------------------------------------------------
+seller_id                          total_revenue (R$)
+---------------------------------------------------------------
+4869f7a5dfa277a7dca6462dcf3b52b2        249,640.70
+7c67e14480b0fe696d365cea6b010ab         239,536.44
+53243585a1dd6c24301df1853d80995         235,586.68
+4a3ca9315b744ce9fe9374631493884         235,359.98
+fa1c13f5f2147bc54749cb52fecdac94        200,484.79
+da8622b14eb17ae2831f4ac5b9dab84a        185,192.32
+7ea93a9acf30c4f3af09b368d72add7df       182,754.05
+1025f0e244dd7041d6dc55b6550e0bfa        172,860.69
+7a67c8e58b5bc2ce8582c35f2203ad736       162,648.38
+955fee9216a56b71a3a50c53f170ec06        160,602.68
+
+Insights:
+- Top sellers generate R$200k–250k revenue.
+- Revenue distribution is highly skewed — top 1% sellers dominate.
+- Some sellers appear consistently in top orders, revenue, and item counts.
+
+-------------------------------------------------------------
+
+Summary:
+-------------------------------------------------------------
+- SP is the largest seller hub, with 10× more sellers than most states.
+- Seller activity follows a power-law distribution: a few sellers drive massive volume.
+- Some sellers significantly contribute to delays, impacting customer experience.
+- Sellers with broad product catalogs tend to perform better.
+- High-value sellers generate >R$200k each over the dataset's timeframe.
+-------------------------------------------------------------

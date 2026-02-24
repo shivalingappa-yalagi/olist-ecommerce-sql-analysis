@@ -1,0 +1,147 @@
+-------------------------------------------------------------
+OLIST SQL PROJECT — PAYMENT ANALYSIS INSIGHTS
+File: 05_payment_analysis_insights.txt
+-------------------------------------------------------------
+
+Q1: Count of payments by payment type
+-------------------------------------------------------------
+payment_type     total_payments
+--------------------------------
+credit_card           76,795
+boleto                19,784
+voucher                5,775
+debit_card             1,529
+not_defined                3
+
+Insights:
+- Credit card dominates with ~77k transactions (~73% of all payments).
+- Boleto (bank slip) is the second most used method (~19%).
+- Voucher & debit card usage is low.
+- “not_defined” is negligible (data noise or missing values).
+
+-------------------------------------------------------------
+
+Q2: Payments by number of installments
+-------------------------------------------------------------
+payment_installments    total_orders
+-------------------------------------
+0                           2
+1                       52,546
+2                       12,413
+3                       10,461
+4                        7,098
+5                        5,239
+6                        3,920
+7                        1,626
+8                        4,268
+9                          644
+10                       5,328
+11                         23
+12                        133
+13                         16
+14                         15
+...
+
+Insights:
+- Most customers pay in **1 installment (52k orders)**.
+- 2–5 installments also common, indicating financing preference.
+- Installments above 10 exist but rare (<1%).
+- Shows Brazilians’ cultural preference for installment payments ("Parcelamento").
+
+-------------------------------------------------------------
+
+Q3: Average payment value by payment type
+-------------------------------------------------------------
+payment_type     avg_payment_value
+-----------------------------------
+credit_card           163.32
+boleto                145.03
+debit_card            142.57
+voucher                65.70
+not_defined             0.00
+
+Insights:
+- Credit card users spend the most per transaction.
+- Voucher payments have the lowest value (likely discounts, promos).
+- Debit card use is minimal but has similar avg value to boleto.
+
+-------------------------------------------------------------
+
+Q4: Total revenue collected by payment type
+-------------------------------------------------------------
+payment_type     total_revenue (R$)
+------------------------------------
+credit_card        12,542,084.19
+boleto              2,869,361.27
+voucher               379,436.87
+debit_card            217,989.79
+not_defined                0.00
+
+Insights:
+- Credit card generates **~80% of Olist’s revenue**.
+- Boleto accounts for ~18% revenue — significant for the Brazilian market.
+- Voucher-related revenue is small, reinforcing promotional nature.
+
+-------------------------------------------------------------
+
+Q5: Single-payment vs Multi-payment orders
+-------------------------------------------------------------
+payment_category     total_orders
+----------------------------------
+single_payment          96,479
+multi_payment            2,961
+
+Insights:
+- 97% of orders use **exactly one payment record**.
+- Multi-payment orders (~3%) indicate complex or split payment behaviors.
+
+-------------------------------------------------------------
+
+Q6: Summary statistics of payment values
+-------------------------------------------------------------
+min_payment    max_payment     avg_payment
+-------------------------------------------
+0.00           13,664.08       154.10
+
+Insights:
+- Minimum payment value is zero (likely voucher or incomplete payment).
+- Maximum payment > R$13,600 — high-value purchases exist.
+- Average payment value is R$154.
+
+-------------------------------------------------------------
+
+Q7: Monthly payment trends (Total Revenue by Month)
+-------------------------------------------------------------
+year_month     total_monthly_revenue (R$)
+------------------------------------------
+2016-09           252.24
+2016-10        59,090.48
+2016-12            19.62
+2017-01       138,488.04
+2017-02        29,108.01
+2017-03       449,863.60
+2017-04       417,788.03
+2017-05       592,918.82
+2017-06       511,276.38
+2017-07       592,382.92
+2017-08       674,396.32
+2017-09       727,762.45
+2017-10       779,677.88
+2017-11     1,194,882.80
+...
+
+Insights:
+- Revenue grows steadily from 2016 into 2017.
+- Strong seasonality visible: **Nov 2017 shows a major spike** (Black Friday Brazil).
+- Monthly revenue exceeds R$700k consistently post mid-2017.
+
+-------------------------------------------------------------
+
+Summary:
+-------------------------------------------------------------
+- Credit card is the dominant payment method in Brazil’s ecommerce.
+- Installment payments are extremely common, especially 1–5 installments.
+- Average payment ≈ R$154, but high-value purchases exceed R$13k.
+- Payment behavior strongly aligns with Brazilian consumer finance culture.
+- Seasonal revenue peaks in late 2017 indicate holiday + Black Friday growth.
+-------------------------------------------------------------
