@@ -1,0 +1,33 @@
+Category Seasonality & Trend Analysis – Key Insights
+
+1. Monthly Performance by Category
+   Shows which categories perform best in which months.
+   Helps identify seasonal demand spikes.
+
+2. Seasonal Categories
+   Some categories show strong performance in specific seasons.
+   Useful for inventory planning and marketing promotions.
+
+3. Declining Categories
+   Categories with reducing orders or revenue over time.
+   Indicates areas needing improvement.
+
+4. High-Growth Categories
+   Categories with increasing monthly performance.
+   Good for expansion strategies.
+
+5. Price Trend by Category
+   Average product price changes over time can reveal:
+   - premium shifts
+   - discounting behavior
+   - market competitiveness
+
+6. Revenue Trends
+   Monthly category revenue helps forecast:
+   - seasonality
+   - marketing costs
+   - procurement requirements
+
+Overall:
+Category seasonality analysis helps optimize supply chain,
+marketing strategies, inventory planning, and consumer targeting.

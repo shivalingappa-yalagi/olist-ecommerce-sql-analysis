@@ -1,0 +1,26 @@
+Logistics Performance by State – Key Insights
+
+1. State-Level Delivery Speed
+   Average delivery days show which states receive orders faster or slower.
+
+2. Delivery Delays
+   High delay states need supply chain improvements or better courier partners.
+
+3. Revenue by State
+   Helps identify geographic demand and top-performing regions.
+
+4. On-Time vs Late Deliveries
+   Useful for evaluating logistics accuracy and reliability.
+
+5. Operational Efficiency
+   States with consistently slow deliveries may face:
+   - long-distance shipments
+   - courier limitations
+   - poor infrastructure
+
+6. Customer Experience
+   Delivery performance by state directly affects satisfaction and reviews.
+
+Overall:
+State-level logistics analysis helps improve fulfillment ops, 
+reduce delays, and enhance customer experience.

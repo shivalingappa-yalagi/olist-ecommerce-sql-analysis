@@ -1,0 +1,26 @@
+Customer Lifetime Value (CLV) – Key Insights
+
+1. High Revenue Customers
+   Customers with highest lifetime value.
+   These should be targeted for loyalty programs.
+
+2. Repeat Customer Categories
+   High Repeat customers generate most lifetime revenue.
+   One-time buyers contribute less and require acquisition strategies.
+
+3. Customer Lifetime Days
+   Longer lifetime indicates strong retention.
+   Short lifetime may suggest drop-off or dissatisfaction.
+
+4. Average Order Value (AOV)
+   High AOV customers are more profitable per transaction.
+   Useful for premium product targeting.
+
+5. Revenue Concentration
+   Often, 10-20% of customers contribute 60-80% of revenue.
+   Helps in prioritizing marketing budget.
+
+Overall:
+CLV analysis helps improve customer retention,
+guides marketing spend, identifies premium customers,
+and builds long-term revenue strategies.

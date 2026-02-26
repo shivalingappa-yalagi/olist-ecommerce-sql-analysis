@@ -1,0 +1,37 @@
+Customer RFM Segmentation – Olist E-Commerce Dataset
+
+1. Champions  
+   - High activity, frequent buyers, highest monetary value.  
+   - Contribute the most to revenue.  
+   - Ideal for premium campaigns and referral programs.
+
+2. Loyal Customers  
+   - Consistent ordering patterns.  
+   - Good retention segment.  
+   - Offer loyalty points, exclusive discounts.
+
+3. Potential Loyalists  
+   - Recently active customers but low order count.  
+   - Can be moved to Loyal/Champions with nurturing.
+
+4. Big Spenders  
+   - High monetary value but low ordering frequency.  
+   - Target with premium and high-value product recommendations.
+
+5. At Risk  
+   - Used to buy often but now inactive.  
+   - Needs win-back campaigns, personalized offers.
+
+6. Lost Customers  
+   - Inactive for a long time.  
+   - Minimal contribution to lifetime value.  
+   - Useful for churn analysis.
+
+7. Others  
+   - Average customers with moderate metrics.  
+   - Not strongly segmented.
+
+Overall Impact:
+- RFM allows better customer targeting.
+- Helps reduce marketing cost by focusing on top-value segments.
+- Improves customer retention and lifetime value.

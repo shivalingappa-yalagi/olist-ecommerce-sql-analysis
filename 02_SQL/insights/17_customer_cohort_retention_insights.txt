@@ -1,0 +1,23 @@
+Customer Cohort Retention – Key Insights
+
+1. First Purchase Cohorts
+   Groups customers by their first purchase month.
+   Helps understand which monthly cohorts perform better.
+
+2. Retention Pattern
+   Month_Index 0 = First purchase month.
+   Following indexes show returning customers.
+
+3. Customer Drop-off
+   Large drop-off in early months indicates poor retention.
+   Stable retention means strong product-market fit.
+
+4. Returning Customers
+   Higher active customers in later months indicate loyal behavior.
+
+5. Business Health
+   Cohort retention is a key indicator of business long-term stability.
+
+Overall:
+Cohort analysis reveals customer loyalty, repeat purchase behavior,
+and retention problems. It is one of the most powerful tools in analytics.

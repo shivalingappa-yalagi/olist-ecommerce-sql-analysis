@@ -1,0 +1,27 @@
+Payment Behavior – Key Insights
+
+1. Most Popular Payment Method
+   Shows which payment type dominates (credit card, debit card, boleto, voucher).
+   Helps optimize checkout experience.
+
+2. Revenue Contribution by Payment Type
+   Reveals which payment methods bring the highest overall revenue.
+
+3. Installment Behavior
+   - Number of orders with installments.
+   - Average installment count.
+   - Relationship between high-value orders and installment usage.
+
+4. High vs Low Value Purchase Trends
+   Higher-value transactions usually involve more installments.
+   Indicates customer credit behavior.
+
+5. Single-Payment vs Installment Orders
+   Useful for credit risk assessment and revenue forecasting.
+
+6. Payment Method Stability
+   Some payment types are more reliable (low reversals) and preferred.
+
+Overall:
+Payment behavior insights help companies improve checkout design,
+offer better payment options, and optimize conversion and credit usage.

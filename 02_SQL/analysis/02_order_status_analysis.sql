@@ -64,3 +64,32 @@ SELECT
     SUM(order_delivered_customer_date >  order_estimated_delivery_date) AS late_deliveries
 FROM olist_orders_dataset
 WHERE order_status = 'delivered';
+
+--------------------------------------------------------------
+
+-- Q7: Days delayed for each order
+-- Purpose: Calculate how many days an order was late.
+SELECT
+    order_id,
+    DATEDIFF(order_delivered_customer_date, order_estimated_delivery_date) AS delay_days
+FROM olist_orders_dataset
+WHERE order_status = 'delivered'
+  AND order_delivered_customer_date > order_estimated_delivery_date
+ORDER BY delay_days DESC;
+
+------------------------------------------------------------------
+
+-- Q8: Average delay by customer state
+-- Purpose: Identify states with the longest delivery delays.
+SELECT
+    c.customer_state,
+    ROUND(AVG(DATEDIFF(o.order_delivered_customer_date, o.order_estimated_delivery_date)), 2) AS avg_delay_days,
+    COUNT(*) AS delayed_orders
+FROM olist_orders_dataset o
+JOIN olist_customers_dataset c
+    ON o.customer_id = c.customer_id
+WHERE o.order_status = 'delivered'
+  AND o.order_delivered_customer_date > o.order_estimated_delivery_date
+GROUP BY c.customer_state
+ORDER BY avg_delay_days DESC;
+
