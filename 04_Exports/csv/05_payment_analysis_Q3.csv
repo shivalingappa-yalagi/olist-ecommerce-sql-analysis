@@ -1,0 +1,7 @@
+payment_type,avg_payment_value
+credit_card,163.32
+boleto,145.03
+debit_card,142.57
+voucher,65.70
+"credit_card ",26.58
+not_defined,0.00

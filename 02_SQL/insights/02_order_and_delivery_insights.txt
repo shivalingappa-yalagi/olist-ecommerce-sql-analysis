@@ -1,0 +1,79 @@
+ORDER STATUS & DELIVERY PERFORMANCE INSIGHTS
+
+Order Status Distribution (Q1 & Q2)
+
+-   Delivered: 96,478 orders (97.02%)
+-   Shipped: 1,107 orders (1.11%)
+-   Canceled: 625 orders (0.63%)
+-   Unavailable: 609 orders (0.61%)
+-   Invoiced: 314 orders (0.32%)
+
+Key Insight:
+
+Olist has an exceptionally high delivery completion rate of 97%,
+indicating strong operational fulfillment.
+
+Delivered vs Not Delivered (Q3 & Q4)
+
+-   Delivered orders: 96,478
+-   Not delivered orders: 1,234
+
+Insight:
+
+Only 1.26% of orders fail to reach the customer, reflecting strong
+reliability.
+
+Delivery Timeliness (Q5 & Q6)
+
+-   On‑time deliveries: 88,652
+-   Late deliveries: 7,826
+
+Insight:
+
+8.1% of all deliveries are late. This directly correlates with lower
+review scores in later modules.
+
+Worst Delayed Orders (Q7)
+
+Worst delays (sample):
+
+  order_id        delay_days
+  --------------- ------------
+  1b3190b2dfa9…   188
+  ca07593549f1…   181
+  47b40429ed8c…   175
+
+Insight:
+
+Some orders experience extreme delays exceeding 6 months, likely due
+to: - Seller operational issues
+- Inventory shortages
+- Logistics chain failures
+
+These outlier delays heavily impact customer trust.
+
+State‑wise Delay Performance (Q8)
+
+Top 5 worst‑performing states by delay:
+
+  State   Avg Delay (days)   Delayed Orders
+  ------- ------------------ ----------------
+  AP      48.33              3
+  RR      36.40              5
+  AM      20.17              6
+  AC      18.67              3
+  SE      16.20              51
+
+Insight:
+
+-   SE has the highest number of delayed orders (51), indicating
+    systemic operational issues.
+-   AP & RR have the highest average delay, suggesting remote delivery
+    constraints.
+
+Final Delivery Insights Summary
+
+-   Overall delivery system is strong, but delay hotspots exist.
+-   Severe delay outliers (>150 days) must be investigated.
+-   Regions like SE, AM, RR need targeted logistics improvements.
+-   Late deliveries clearly contribute to reduced customer satisfaction.

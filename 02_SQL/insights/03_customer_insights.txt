@@ -1,0 +1,106 @@
+CUSTOMER INSIGHTS (SEGMENTATION + RFM + CLV + COHORT RETENTION)
+
+1. Customer Base Overview
+
+-   Total customers: 96,096
+-   Returning customers: 2,997
+-   Repeat rate: 3.2%
+-   One-time customers: 96.8%
+
+Interpretation:
+
+The marketplace is acquisition-heavy but retention-weak. Very few
+customers return for a second purchase.
+
+------------------------------------------------------------------------
+
+2. RFM Analysis Overview
+
+RFM (Recency, Frequency, Monetary) segmentation groups customers based
+on behavior.
+
+Sample (first 5 customers):
+
+  customer_id   recency   frequency   monetary   segment
+  ------------- --------- ----------- ---------- ---------------------
+  9cf0a858…     13        2           2323.25    Potential Loyalists
+  466dcf5f…     12        2           2014.99    Potential Loyalists
+  591056a6…     18        1           2032.0     Potential Loyalists
+  6f241d5b…     111       7           1436.46    Loyal Customers
+  548692bd…     19        1           2455.12    Potential Loyalists
+
+Segment Distribution:
+
+-   Lost Customers: 42213
+-   Others: 41429
+-   Potential Loyalists: 12577
+-   Big Spenders: 160
+-   At Risk: 94
+-   Loyal Customers: 5
+
+Insights:
+
+-   A strong group of Loyal Customers and Potential Loyalists exists.
+-   However, most buyers belong to low-value or one-time segments,
+    impacting long-term revenue.
+-   High Recency values for many customers indicate dormant users.
+
+------------------------------------------------------------------------
+
+3. Customer Lifetime Value (CLV)
+
+Top 5 High-Value Customers:
+
+  customer_id   orders   revenue    avg_value   lifetime_days   category
+  ------------- -------- ---------- ----------- --------------- ----------------
+  1617b135…     1        13664.08   13664.08    0               One-Time Buyer
+  ec5b2ba6…     1        7274.88    7274.88     0               One-Time Buyer
+  c6e2731c…     1        6929.31    6929.31     0               One-Time Buyer
+  f48d464a…     1        6922.21    6922.21     0               One-Time Buyer
+  3fd6777b…     1        6726.66    6726.66     0               One-Time Buyer
+
+CLV Insights:
+
+-   High-value customers often place only one order, showing the
+    marketplace is losing valuable repeat opportunities.
+-   CLV distribution is top-heavy, meaning very few customers contribute
+    disproportionately to revenue.
+-   Retention efforts focused on converting one-time high spenders into
+    repeat users could significantly improve total CLV.
+
+------------------------------------------------------------------------
+
+4. Cohort Retention Insights
+
+Cohort retention shows how many users remain active after their first
+purchase.
+
+Sample (first 5 rows):
+
+{‘cohort_month’: ‘2016-09’, ‘month_index’: 0, ‘active_customers’: 1}
+{‘cohort_month’: ‘2016-10’, ‘month_index’: 0, ‘active_customers’: 265}
+{‘cohort_month’: ‘2016-12’, ‘month_index’: 0, ‘active_customers’: 1}
+{‘cohort_month’: ‘2017-01’, ‘month_index’: 0, ‘active_customers’: 750}
+{‘cohort_month’: ‘2017-02’, ‘month_index’: 0, ‘active_customers’: 1653}
+
+Interpretation:
+
+-   Retention drops sharply after Month 0, meaning most customers never
+    come back.
+-   Very minimal retention beyond Month 2–3.
+-   Indicates extremely high customer churn and poor post-purchase
+    engagement.
+
+------------------------------------------------------------------------
+
+FINAL CUSTOMER INSIGHTS SUMMARY
+
+-   Olist has a large customer base but extremely low retention.
+-   RFM segmentation: majority are one-time, low-frequency, low-monetary
+    customers.
+-   CLV analysis shows huge untapped potential, with many high-value
+    customers never returning.
+-   Cohort analysis confirms quick churn, with customers not progressing
+    to loyalty.
+-   Improving retention through loyalty programs, re-engagement
+    campaigns, and personalized offers is critical.

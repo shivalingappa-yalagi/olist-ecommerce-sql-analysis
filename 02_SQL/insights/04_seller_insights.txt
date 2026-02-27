@@ -1,0 +1,111 @@
+SELLER INSIGHTS (PERFORMANCE + BEHAVIOR)
+
+1. Seller Distribution by State (Q1)
+
+Top seller states:
+
+  State   Total Sellers
+  ------- ---------------
+  SP      1849
+  PR      349
+  MG      244
+  SC      190
+  RJ      171
+
+Insight:
+
+-   SP leads massively, hosting more sellers than the next 4 states
+    combined.
+-   Seller concentration is highly urban and southeast-dominated.
+
+------------------------------------------------------------------------
+
+2. Seller Distribution by City (Q2)
+
+Top cities:
+
+  City             Sellers
+  ---------------- ---------
+  Sao Paulo        694
+  Curitiba         127
+  Rio De Janeiro   96
+  Belo Horizonte   68
+  Ribeirao Preto   52
+
+Insight:
+
+-   The marketplace strongly depends on metropolitan seller hubs.
+-   This aligns with faster delivery performance for these regions.
+
+------------------------------------------------------------------------
+
+3. Top Sellers by Items Sold (Q3)
+
+Sample Top 5:
+
+  seller_id   items_sold
+  ----------- ------------
+  6560211a…   2033
+  4a3ca931…   1987
+  1f50f920…   1931
+  cca3071e…   322
+  d91fb3b7…   315
+
+Insight:
+
+-   A small subset of sellers sells thousands of items.
+-   Majority of sellers sell far fewer, showing a strong top-heavy
+    distribution.
+
+------------------------------------------------------------------------
+
+4. Seller Delay Performance (Q6)
+
+Worst delayed sellers:
+
+  seller_id   avg_delay_days   delayed_orders
+  ----------- ---------------- ----------------
+  54965bbe…   27.31            26
+  2c9e548b…   16.41            29
+  cca3071e…   15.66            44
+  fe2032da…   13.54            26
+  53e4c6e0…   12.11            27
+
+Insight:
+
+-   A small number of sellers cause large delivery delays.
+-   Sellers with high order volume AND delays pose risk to customer
+    satisfaction.
+
+------------------------------------------------------------------------
+
+5. Top Revenue-Generating Sellers (Q7)
+
+Top 5 high-revenue sellers:
+
+  seller_id   revenue
+  ----------- ------------
+  4869f7a5…   249,640.70
+  7c67e144…   239,536.44
+  53243585…   235,856.68
+  4a3ca931…   235,539.96
+  fa1c13f2…   204,084.73
+
+Insight:
+
+-   Revenue is dominated by a small top-performing seller cluster.
+-   These sellers should be prioritized for operational support to
+    increase marketplace revenue.
+
+------------------------------------------------------------------------
+
+FINAL SELLER INSIGHTS SUMMARY
+
+-   Seller ecosystem is highly concentrated in SP and major metro
+    cities.
+-   A small group of sellers captures the majority of demand and
+    revenue.
+-   Some of these top sellers also contribute to significant delivery
+    delays.
+-   Improving seller operational performance can elevate overall
+    marketplace reliability.

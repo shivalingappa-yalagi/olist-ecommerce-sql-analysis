@@ -1,61 +1,32 @@
--------------------------------------------------------------
-OLIST SQL PROJECT — BASIC EXPLORATION INSIGHTS
-File: 01_basic_exploration_insights.txt
--------------------------------------------------------------
+BASIC EXPLORATION INSIGHTS
 
-Q1: Row counts of all tables
--------------------------------------------------------------
-table_name                    total_rows
--------------------------------------------------------------
-geolocation                   1,000,163
-order_items                   112,650
-payments                      103,886
-customers                      99,441
-orders                         99,441
-reviews                        98,400
-products                       32,951
-sellers                         3,095
-product_category_translation       71
+Dataset Size Overview
 
-Insights:
-- Geolocation is the largest table (> 1M rows), which may affect JOIN performance.
-- Products and sellers tables are relatively small.
-- Orders and customers have almost identical counts (~99k), showing 1-to-1 order mapping tendency.
+The Olist dataset contains the following row counts (from Q1):
 
--------------------------------------------------------------
+-   geolocation: 1,000,163 rows
+-   order_items: 112,650 rows
+-   payments: 103,886 rows
+-   customers: 99,441 rows
+-   orders: 99,441 rows
 
-Q2: Date range of orders
--------------------------------------------------------------
-start_date                  end_date
--------------------------------------------------------------
-2016-09-04 21:15:19         2018-10-17 17:30:18
+Date Range (Q2)
 
-Insights:
-- Olist orders span approximately mid-2016 to late-2018.
-- Total analysis period is roughly 2.3 years.
+-   Earliest order date: 2016-09-04
+-   Latest order date: 2018-10-17
 
--------------------------------------------------------------
+This indicates 25 months of marketplace activity.
 
-Q3: Total unique customers
--------------------------------------------------------------
-unique_customers
-----------------
-96,096
+Unique vs Repeat Customers
 
-Insights:
-- Represents the true count of individual buyers.
-- Indicates the size of Olist’s customer base during the analysis period.
+-   Unique customers: 96,096
+-   Repeat customers: 2,997
 
--------------------------------------------------------------
+This means: - 96.8% customers ordered only once. - 3.2% are repeat
+customers.
 
-Q4: Total repeat customers
--------------------------------------------------------------
-repeat_customers
------------------
-2,997
+Key Insight Summary
 
-Insights:
-- Only ~3% of customers placed more than one order.
-- Repeat customer volume is low → opportunity for loyalty improvement.
-
--------------------------------------------------------------
+-   The marketplace has high acquisition but low retention.
+-   Large geolocation dataset suggests extensive national coverage.
+-   Customer base is broad but mostly one-time shoppers.
