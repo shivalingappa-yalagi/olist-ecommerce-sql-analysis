@@ -1,0 +1,43 @@
+20 – MARKETPLACE GEOGRAPHY ANALYSIS
+
+Overview: This analysis combines customer distribution, seller
+distribution, and revenue contribution across Brazilian states to
+understand marketplace geography, demand concentration, and supply-side
+network strength.
+
+Top States by Revenue: 1. SP – Revenue: 5,770,266.19 | Orders: 42,309 |
+Customers: 41,746 | Sellers: 1,849 2. RJ – Revenue: 2,055,690.45 |
+Orders: 13,004 | Customers: 12,852 | Sellers: 171 3. MG – Revenue:
+1,819,277.61 | Orders: 11,804 | Customers: 11,635 | Sellers: 244 4. RS –
+Revenue: 861,802.40 | Orders: 5,544 | Customers: 5,466 | Sellers: 129 5.
+PR – Revenue: 781,919.55 | Orders: 5,129 | Customers: 5,045 | Sellers:
+349
+
+Customer Distribution: - Southeast dominates with SP, RJ, and MG
+contributing ~70% of customers. - SP leads with 41,746 customers, the
+nation’s largest demand base.
+
+Seller Distribution: - SP is the largest seller hub with 1,849
+sellers. - PR is the second-largest seller base with 349 sellers despite
+having fewer customers. - RJ has high demand but low seller supply (only
+171 sellers), revealing a marketplace imbalance.
+
+Customer–Seller Balance Insights: - SP: Strong balance of supply &
+demand; excellent logistics performance. - RJ: High customer demand but
+insufficient sellers → opportunity to recruit more vendors. - MG:
+Healthy demand; moderate seller base; good potential for seller
+onboarding. - PR: Seller-rich state; functions as a logistics and
+fulfillment stronghold. - RS: Medium performance across all metrics.
+
+Revenue per Customer: - SP: 138 - RJ: 160 - MG: 156 - RS: 158 - PR: 155
+
+Customers in RJ, MG, RS, and PR spend more per customer than SP,
+indicating high revenue potential in non-SP regions.
+
+Recommendations: 1. Recruit more sellers in high-demand states (RJ, MG)
+to balance supply. 2. Enhance SP-based logistics to introduce faster
+delivery options. 3. Use PR as a strategic seller & logistics hub for
+southern deliveries. 4. Promote targeted marketing campaigns in states
+with high spending per customer. 5. Build state-level dashboards for
+monitoring customer density, seller availability, and geographic sales
+performance.

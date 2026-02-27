@@ -1,0 +1,30 @@
+14 – PRODUCT CATEGORY PERFORMANCE
+
+Overview: This analysis evaluates product category performance based on
+total orders, total revenue, average product price, delivery speed, and
+review scores. It helps identify strong categories and improvement
+areas.
+
+Top Categories by Revenue: 1. beleza_saude – Orders: 9,727 | Revenue:
+1,446,622.08 | Avg Price: 129.86 | Delivery: 11.92 days | Reviews: 4.14
+2. relogios_presentes – Orders: 6,001 | Revenue: 1,306,761.40 | Avg
+Price: 200.98 | Delivery: 12.59 days | Reviews: 4.02 3. cama_mesa_banho
+– Orders: 11,270 | Revenue: 1,258,189.51 | Avg Price: 93.25 | Delivery:
+12.76 days | Reviews: 3.89 4. esporte_lazer – Orders: 8,700 | Revenue:
+1,163,329.98 | Avg Price: 114.21 | Delivery: 12.08 days | Reviews: 4.11
+5. informatica_acessorios – Orders: 7,894 | Revenue: 1,068,070.48 | Avg
+Price: 116.50 | Delivery: 13.17 days | Reviews: 3.93
+
+Insights: - beleza_saude is the top revenue-generating category with
+strong reviews and fast delivery. - relogios_presentes generates high
+revenue supported by high average product prices. - cama_mesa_banho has
+the highest order volume but suffers from lower review scores and slower
+delivery. - esporte_lazer shows balanced performance with strong ratings
+and good delivery speed. - informatica_acessorios can improve ratings by
+addressing slow delivery performance.
+
+Recommendations: - Improve delivery logistics for informatica_acessorios
+and cama_mesa_banho. - Promote high-margin categories like
+relogios_presentes and beleza_saude. - Strengthen repeat-purchase
+incentives in beleza_saude (high consumption rate). - Investigate
+quality or service issues in cama_mesa_banho to boost review scores.

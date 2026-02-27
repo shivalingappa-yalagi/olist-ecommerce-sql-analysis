@@ -1,0 +1,23 @@
+11 – SELLER PERFORMANCE ANALYSIS
+
+Top Sellers by Total Revenue: 1. 4869f7a5dfa277a7dca6462dcf3b52b2 –
+Revenue: 249,640.70 | Orders: 1132 | Avg Order Value: 198.51 | Avg
+Delivery Days: 14.94 2. 7c67e1448b00f6e969d365cea6b010ab – Revenue:
+239,536.44 | Orders: 982 | Avg Order Value: 137.77 | Avg Delivery Days:
+22.33 3. 53243585a1d6dc2643021fd1853d8905 – Revenue: 235,856.68 |
+Orders: 358 | Avg Order Value: 543.36 | Avg Delivery Days: 13.29 4.
+4a3ca9315b744ce9f8e9374361493884 – Revenue: 235,539.96 | Orders: 1806 |
+Avg Order Value: 100.89 | Avg Delivery Days: 14.37 5.
+fa1c13f2614d7b5c4749cbc52fecda94 – Revenue: 204,084.73 | Orders: 585 |
+Avg Order Value: 331.13 | Avg Delivery Days: 13.30
+
+Key Insights: - Top seller generates highest revenue with very low
+cancellations. - Some sellers rely on high volume while others rely on
+high AOV. - Delivery speed is generally within 13–15 days, except one
+slower seller. - Cancellations overall are low, indicating good
+fulfillment performance.
+
+Recommendations: - Improve visibility for high-AOV sellers. - Support
+high-volume sellers with bundle strategies. - Monitor slow delivery
+sellers to prevent negative reviews. - Promote top-performing sellers
+via platform incentives.
