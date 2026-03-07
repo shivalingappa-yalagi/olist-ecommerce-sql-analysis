@@ -55,43 +55,42 @@ All SQL scripts, documentation, insights, and datasets are structured profession
 
 ```
 
-Olist\_SQL\_Project/
+## 📂 Project Structure
 
+Olist_SQL_Project/
+
+├── 01_Datasets/
+│   ├── Raw_Dataset
+│   └── Cleaned_Dataset
 │
-
-├── 01\_Datasets/                         → Cleaned \& processed CSV files
-
-├── 02\_SQL/                              → All SQL scripts (01–20)
-
-│     ├── 01\_basic\_exploration.sql
-
-│     ├── 02\_order\_delivery\_analysis.sql
-
-│     ├── ...
-
-│     └── 20\_marketplace\_geography.sql
-
+├── 02_SQL/
+│   ├── Queries
+│   └── Insights
 │
-
-├── 03\_Documentation/
-
-│     ├── Project\_Overview.md            → High-level project summary
-
-│     ├── Insights\_Summary.md            → Insights from all 20 modules
-
-│     └── README.md                      → Main GitHub README file
-
+├── 03_Documentation/
+│   ├── Project_Overview.md
+│   ├── Insights_Summary.md
+│   ├── Olist_SQL_Project_Final_Report.md
+│   └── README.md
 │
-
-├── 04\_Insights\_Txt/                     → Auto-generated .txt insight files
-
-└── 05\_Exports/ (optional)               → Visuals, charts, dashboards
-
+├── 04_Query_Results/
+│   ├── CSV_Files
+│   ├── Excel_Files
+│   └── Images
+│
+├── 05_References/
+│   ├── Data_Dictionary.md
+│   ├── ER_Diagram.png
+│   └── Links.txt
+│
+└── 06_PowerBI_Dashboard/
+    ├── PBIX_Files
+    ├── Images
+    ├── Data_Model
+    └── Exports
 ```
 
 
-
----
 
 
 
@@ -116,7 +115,9 @@ Olist\_SQL\_Project/
 
 
 ---
+## 🗂 Database Schema
 
+![ER Diagram](05_References/ER_Diagram.png)
 
 
 \# 📊 \*\*Key Analysis Modules \& Insights\*\*

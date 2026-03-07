@@ -211,8 +211,7 @@ Olist_SQL_Project
 
 ## Sales Overview Dashboard
 
-![Sales Overview](06_PowerBI_Dashboard/Images/SALES%20OVERVIEW%20DASHBOARD.png)
-
+![Sales Overview](06_PowerBI_Dashboard/Images/sales_overview_dashboard.png)
 Key metrics:
 
 • **Total Revenue:** $15.4M  
@@ -224,7 +223,7 @@ Key metrics:
 
 ## Product Performance Dashboard
 
-![Product Performance](06_PowerBI_Dashboard/Images/PRODUCT%20PERFORMANCE%20DASHBOARD.png)
+![Product Performance](06_PowerBI_Dashboard/Images/product_performance_dashboard.png)
 
 Insights:
 
@@ -237,8 +236,7 @@ Insights:
 
 ## Customer Insights Dashboard
 
-![Customer Insights](06_PowerBI_Dashboard/Images/CUSTOMER%20INSIGHTS%20DASHBOARD.png)
-
+![Customer Insights](06_PowerBI_Dashboard/Images/customer_insights_dashboard.png)
 Highlights:
 
 • **96.5K customers analyzed**  
@@ -250,7 +248,7 @@ Highlights:
 
 ## Seller Delivery Performance Dashboard
 
-![Seller Performance](06_PowerBI_Dashboard/Images/SELLER%20DELIVERY%20PERFORMANCE%20DASHBOARD.png)
+![Seller Delivery](06_PowerBI_Dashboard/Images/seller_delivery_dashboard.png)
 
 Key findings:
 
@@ -263,7 +261,7 @@ Key findings:
 
 # 📈 Key Business Insights
 
-![Key Insights](06_PowerBI_Dashboard/Images/Key%20Insights.png)
+![Key Insights](06_PowerBI_Dashboard/Images/key_insights.png)
 
 ### Marketplace Performance
 
