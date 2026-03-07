@@ -1,0 +1,176 @@
+# **05 – Payment Analysis Insights**
+
+---
+
+## **Q1: Count of payments by payment type**
+
+**Key Insights**
+
+* **Credit card** is the overwhelmingly dominant payment method with **76,794 payments**, showing strong consumer reliance on card-based transactions.
+* **Boleto** is the second most used method with **19,784 payments**, which is typical in Brazil where boleto bancário is widely adopted.
+* **Vouchers** represent a small but notable share (5,775 payments), commonly used for promotions or gift purchases.
+* **Debit card usage is very low** (1,529 payments), indicating limited consumer preference.
+* **A small number of undefined or inconsistent records** exist (3 + 1 rows).
+
+**Payment Method Usage Table**
+
+| Payment Type            | Total Payments |
+| ----------------------- | -------------- |
+| credit_card             | 76794          |
+| boleto                  | 19784          |
+| voucher                 | 5775           |
+| debit_card              | 1529           |
+| not_defined             | 3              |
+| credit_card (duplicate) | 1              |
+
+---
+
+## **Q2: Payments by number of installments**
+
+**Key Insights**
+
+* **1 installment is the most common**, with **52,546 orders**, indicating many customers prefer paying upfront.
+* **2 to 6 installments** also show high usage (12,413 to 5,239 orders), reflecting Brazil’s strong installment culture.
+* Installments up to **24** exist, but usage drops sharply after 6 installments.
+* Extremely long installment plans (15–24) appear rarely (<50 orders each).
+
+**Installments Distribution Table**
+
+| Installments | Total Orders |
+| ------------ | ------------ |
+| 1            | 52546        |
+| 2            | 12413        |
+| 3            | 10461        |
+| 4            | 7098         |
+| 5            | 5239         |
+| 6            | 3910         |
+| 7            | 1626         |
+| 8            | 4268         |
+| 9            | 644          |
+| 10           | 5328         |
+| 11           | 23           |
+| 12           | 133          |
+| 13           | 16           |
+| 14           | 45           |
+| 15           | 11           |
+| 16           | 9            |
+| 17           | 5            |
+| 18           | 27           |
+
+---
+
+## **Q3: Average payment value by payment type**
+
+**Key Insights**
+
+* **Credit card payments have the highest average value** at **R$ 163.32**, showing customers prefer credit cards for larger purchases.
+* **Boleto** follows with an average of **R$ 145.03**.
+* **Debit card** average is **R$ 142.57**, close to boleto.
+* **Voucher** transactions are much smaller (R$ 65.70), typical for gift cards or promotional credits.
+* **Undefined records appear with zero value.**
+
+**Average Payment by Type**
+
+| Payment Type            | Avg Payment Value |
+| ----------------------- | ----------------- |
+| credit_card             | 163.32            |
+| boleto                  | 145.03            |
+| debit_card              | 142.57            |
+| voucher                 | 65.70             |
+| credit_card (duplicate) | 26.58             |
+| not_defined             | 0.00              |
+
+---
+
+## **Q4: Total revenue collected by payment type**
+
+**Key Insights**
+
+* **Credit card generates the highest revenue**, totaling **R$ 125.42 million**, making it the most financially important payment method.
+* **Boleto contributes R$ 28.69 million**, a significant secondary revenue channel.
+* **Vouchers generate R$ 379,436**, a minor category.
+* **Debit card contributes R$ 217,899**, much lower in relevance.
+* Minor and undefined records contribute negligible revenue.
+
+**Revenue by Payment Type**
+
+| Payment Type            | Total Revenue (R$) |
+| ----------------------- | ------------------ |
+| credit_card             | 12542057.61        |
+| boleto                  | 2869361.27         |
+| voucher                 | 379436.87          |
+| debit_card              | 217989.79          |
+| credit_card (duplicate) | 26.58              |
+| not_defined             | 0.00               |
+
+---
+
+## **Q5: Distribution of single-payment vs multi-payment orders**
+
+**Key Insights**
+
+* **96,479 orders use a single payment** — this represents **>76%** of all orders.
+* **Only 2,961 orders use multiple payments**, meaning customers rarely split payments across multiple methods.
+* Olist transactions are largely **simple and straightforward**, involving **one payment per order**.
+
+**Single vs Multi Payment**
+
+| Category       | Total Orders |
+| -------------- | ------------ |
+| single_payment | 96479        |
+| multi_payment  | 2961         |
+
+---
+
+## **Q6: Minimum, maximum, and average payment values**
+
+**Key Insights**
+
+* **Minimum payment is R$ 0.00**, suggesting refunds, rewards, or system artifacts.
+* **Maximum payment reaches R$ 13,664.08**, showing that very high-value purchases exist on the platform.
+* **Average payment is R$ 154.10**, consistent with mid-range household and electronic purchases.
+
+**Payment Value Summary**
+
+| Min Payment | Max Payment | Avg Payment |
+| ----------- | ----------- | ----------- |
+| 0.00        | 13664.08    | 154.10      |
+
+---
+
+## **Q7: Monthly payment revenue trend (seasonality)**
+
+**Key Insights**
+
+* Olist revenue shows **consistent month-over-month growth from late 2016 into 2018**.
+* **Initial months (2016) have very low revenue**, as the platform was smaller.
+* Revenue surges through **2017**, with several peaks:
+
+  * **March 2017**: R$ 419,863
+  * **July 2017**: R$ 592,918
+  * **December 2017**: R$ 1,194,882 (holiday surge)
+* **2018 continues strong** with:
+
+  * **January 2018**: R$ 878,401
+  * **March 2018**: R$ 992,643
+  * **April 2018**: R$ 1,160,785
+
+This confirms **seasonal spikes**, especially around **year-end holidays**.
+
+**Sample Trend Table (first rows)**
+
+| Year-Month | Total Revenue |
+| ---------- | ------------- |
+| 2016-09    | 252.24        |
+| 2016-10    | 59090.48      |
+| 2016-12    | 19.62         |
+| 2017-01    | 138488.04     |
+| 2017-02    | 299108.01     |
+| 2017-03    | 419863.60     |
+| 2017-04    | 417883.03     |
+| 2017-05    | 592918.32     |
+| 2017-06    | 511276.38     |
+| 2017-07    | 592382.92     |
+
+---
+

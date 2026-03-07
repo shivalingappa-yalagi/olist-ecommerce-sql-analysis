@@ -1,5 +1,4 @@
 
-
 \# 🛒 \*\*Olist Marketplace Data Analysis – End-to-End SQL Project\*\*
 
 

@@ -1,0 +1,33 @@
+17 – CUSTOMER COHORT RETENTION ANALYSIS
+
+Overview: Cohort retention analysis tracks how customers acquired in a
+given month return in future months. A “cohort” is defined by the
+customer’s first purchase month. Retention is measured by how many
+customers purchase again in subsequent months (month_index 1, 2, 3…).
+
+Key Findings: 1. Olist shows strong customer acquisition growth from
+2017 onward. 2. Retention drops sharply after Month 0 (first purchase
+month). 3. Very few customers return after 2–3 months, a typical pattern
+for marketplace-style e‑commerce. 4. Cohort behavior is consistent
+across all months, indicating predictable customer churn.
+
+Cohort Highlights (Month 0 Sizes): 2016-09 – 1 customer 2016-10 – 265
+customers 2016-12 – 1 customer 2017-01 – 750 customers 2017-02 – 1,653
+customers 2017-03 – 2,617 customers 2017-04 – 2,368 customers (…
+continues for remaining months)
+
+Retention Pattern Example (Cohort 2017-02): Month 0: 1653 customers
+Month 1: 154 customers Month 2: 117 customers Month 3: 101 customers
+Month 4: 80 customers (90%+ churn after Month 0)
+
+Insights: - Olist is primarily a one‑time purchase marketplace. -
+Despite thousands of new customers per month, long-term retention
+remains low. - Drop-offs are steep but stable across all cohorts. - High
+acquisition + low recurrence = strong opportunity for loyalty-building.
+
+Recommendations: - Improve retention through loyalty programs,
+repeat-purchase incentives, and personalized marketing. - Analyze
+category-level repeat behavior to target high-retention product lines. -
+Build automated CRM workflows for Month‑1 and Month‑2 reactivation. -
+Use stable cohort trends for accurate forecasting and inventory
+planning.

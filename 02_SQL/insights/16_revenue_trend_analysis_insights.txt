@@ -1,0 +1,35 @@
+16 – REVENUE TREND ANALYSIS
+
+Overview: This analysis reviews monthly revenue trends across the Olist
+platform, showing the platform’s growth trajectory, seasonality
+patterns, and customer demand over time.
+
+Key Observations: - Major revenue acceleration occurs from early 2017
+onward. - Seasonal spikes appear in November (Black Friday) and December
+(holiday season). - Continuous growth is seen into 2018 with multiple
+months surpassing R$ 1M revenue.
+
+Monthly Revenue Highlights: 2016-09 – Very early stage, almost no
+activity. 2016-10 – Revenue: 46,566.71 | Orders: 282 2016-12 – Revenue:
+19.62 | Orders: 1 2017-01 – Revenue: 127,545.67 | Orders: 799 2017-02 –
+Revenue: 271,298.65 | Orders: 1,749 2017-03 – Revenue: 385,857.14 |
+Orders: 2,781 2017-04 – Revenue: 351,259.33 | Orders: 2,474 2017-05 –
+Revenue: 445,653.24 | Orders: 3,351 2017-06 – Revenue: 369,696.09 |
+Orders: 2,885 2017-07 – Revenue: 605,948.48 | Orders: 4,325 2017-08 –
+Revenue: 516,542.46 | Orders: 3,840 2017-09 – Revenue: 563,012.58 |
+Orders: 4,068 2017-10 – Revenue: 616,502.55 | Orders: 4,500 2017-11 –
+Revenue: 809,874.60 | Orders: 6,432 2017-12 – Revenue: 1,125,958.66 |
+Orders: 6,508 2018-01 – Revenue: 875,657.72 | Orders: 5,335 2018-02 –
+Revenue: 905,557.48 | Orders: 5,727 2018-03 – Revenue: 1,045,507.17 |
+Orders: 7,152 2018-04 – Revenue: 1,174,884.57 | Orders: 7,467
+
+Insights: 1. Explosive platform growth from 2017 onward. 2. Strong
+seasonal performance in Q4 due to major shopping events. 3. Revenue
+exceeds R$ 1M multiple times in 2018, indicating platform maturity. 4.
+Orders follow the same upward trend as revenue, confirming organic
+customer growth.
+
+Recommendations: - Increase marketing spend around November and
+December. - Focus on scaling logistics to handle peak season demand. -
+Use revenue trend forecasting for stock and seller planning. - Encourage
+repeat buying to maintain growth momentum.

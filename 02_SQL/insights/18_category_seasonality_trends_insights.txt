@@ -1,0 +1,74 @@
+18 – CATEGORY SEASONALITY TRENDS
+
+Overview: Category seasonality analysis identifies how product
+categories perform month-by-month, revealing demand patterns, revenue
+cycles, and category-specific peaks. This helps forecast demand, plan
+inventory, and optimize marketing campaigns.
+
+Key Seasonality Patterns:
+
+1.  Q4 Peak (Black Friday + Christmas) Highly seasonal categories with
+    strong November–December spikes:
+
+-   relogios_presentes (Watches & Gifts)
+-   beleza_saude (Beauty & Health)
+-   brinquedos (Toys)
+-   informatica_acessorios (Computer Accessories)
+-   esporte_lazer (Sports & Leisure)
+
+These categories show 2x–4x revenue jumps during peak shopping months.
+
+2.  Stable, Low-Seasonality Categories Categories with consistent
+    monthly demand:
+
+-   cama_mesa_banho (Bed, Bath & Table)
+-   moveis_decoracao (Furniture & Decor)
+-   utilidades_domesticas (Housewares)
+-   telefonia (Telephony)
+
+These categories generate predictable baseline revenue and are ideal for
+inventory stability.
+
+3.  Early Year Strength (Jan–Mar) Categories with demand increases early
+    in the year:
+
+-   beleza_saude
+-   informatica_acessorios
+-   esporte_lazer
+
+Likely influenced by New Year goals, back-to-work purchases, and
+personal wellness spending.
+
+4.  Niche & Volatile Categories Categories with irregular but high-value
+    spikes:
+
+-   agro_industria_e_comercio
+-   ferramentas & jardim
+-   climatizacao
+
+These categories may reflect occasional B2B or bulk orders.
+
+Example: agro_industria_e_comercio 2017-05 – Revenue: 1,763.74 2017-06 –
+Revenue: 1,422.05 Large orders distort average price and demand
+occasionally.
+
+Price Seasonality: - Gift categories experience price increases during
+peak months. - Electronics show higher average prices during Black
+Friday due to premium purchases. - Household items maintain stable
+pricing throughout the year.
+
+Seasonality Strength Ranking: Highly Seasonal: - relogios_presentes -
+beleza_saude - brinquedos - esporte_lazer - informatica_acessorios
+
+Moderately Seasonal: - cama_mesa_banho - moveis_decoracao -
+utilidades_domesticas
+
+Low Seasonality: - agro_industria_e_comercio - climatizacao - bebidas -
+ferragem
+
+Recommendations: - Increase stock for gifting and electronics categories
+before November–December. - Maintain year-round availability for
+essential household categories. - Apply aggressive discounts for slow
+months in volatile or niche categories. - Use category-level seasonality
+to design calendar-based marketing campaigns. - Avoid excessive
+discounting for highly seasonal categories during peak months.

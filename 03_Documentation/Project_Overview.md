@@ -162,23 +162,31 @@ The dataset contains multiple relational tables:
 
 ```
 
-Olist\_SQL\_Project/
+## 5. Project Structure
 
+Olist_SQL_Project/
+
+├── 01_Datasets
+│   ├── Raw_Dataset
+│   └── Cleaned_Dataset
 │
-
-├── 01\_Datasets/                 → Cleaned CSV files
-
-├── 02\_SQL/                      → SQL analysis scripts (01–20)
-
-├── 03\_Documentation/            → Markdown documentation
-
-│     ├── Project\_Overview.md
-
-│     ├── Insights\_Summary.md
-
-│     └── README.md
-
-└── 04\_Exports/                  → txt outputs, visuals (optional)
+├── 02_SQL
+│   ├── Queries
+│   └── Insights
+│
+├── 03_Documentation
+│   ├── Project_Overview.md
+│   ├── Insights_Summary.md
+│   └── Olist_SQL_Project_Final_Report.md
+│
+├── 04_Query_Results
+│   ├── CSV_Files
+│   ├── Excel_Files
+│   └── Images
+│
+├── 05_References
+│
+└── 06_PowerBI_Dashboard
 
 ```
 

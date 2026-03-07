@@ -1,0 +1,203 @@
+
+
+# **06 – Product Analysis Insights**
+
+---
+
+## **Q1: Top 15 product categories by number of items sold**
+
+**Key Insights**
+
+* **Bed Bath Table** is the best-selling category with **11,115 items sold**, indicating consistent household demand.
+* **Health Beauty** and **Sports Leisure** follow with **9,670** and **8,641** items, showing strong consumer spending in wellness and lifestyle.
+* Home-related categories like **Furniture Decor**, **Housewares**, and **Computers Accessories** also perform strongly (7,827–8,334 items).
+* Niches like **Perfume**, **Baby**, and **Electronics** appear at the bottom of the top 15, with moderate but stable sales.
+
+**Top Categories Table**
+
+| Category              | Total Items Sold |
+| --------------------- | ---------------- |
+| Bed_Bath_Table        | 11115            |
+| Health_Beauty         | 9670             |
+| Sports_Leisure        | 8641             |
+| Furniture_Decor       | 8334             |
+| Computers_Accessories | 7827             |
+| Housewares            | 6964             |
+| Watches_Gifts         | 5991             |
+| Telephony             | 4594             |
+| Garden_Tools          | 4347             |
+| Auto                  | 4235             |
+| Toys                  | 4117             |
+| Cool_Stuff            | 3796             |
+| Perfume               | 3749             |
+| Baby                  | 3065             |
+| Electronics           | 2767             |
+
+---
+
+## **Q2: Average product price by category (Top 15)**
+
+**Key Insights**
+
+* **Computers** is the most expensive category with an average price of **R$ 1,098.34**, highlighting high-value electronics.
+* **Small Appliances – Home Oven & Coffee** also ranks high with **R$ 624.29**, indicating premium small household equipment.
+* Other high-value categories include **Home Appliances 2**, **Agro Industry**, and **Musical Instruments**.
+* Lower-priced categories include **Cool Stuff**, **Kitchen & Dining**, and **Music**, suggesting these are budget-friendly products.
+
+**Avg Price Table**
+
+| Category                                | Avg Price |
+| --------------------------------------- | --------- |
+| Computers                               | 1098.34   |
+| Small_Appliances_Home_Oven_And_Coffee   | 624.29    |
+| Home_Appliances_2                       | 476.12    |
+| Agro_Industry_And_Commerce              | 342.12    |
+| Musical_Instruments                     | 281.62    |
+| Small_Appliances                        | 280.78    |
+| Fixed_Telephony                         | 225.69    |
+| Construction_Tools_Safety               | 208.99    |
+| Watches_Gifts                           | 201.14    |
+| Air_Conditioning                        | 185.27    |
+| Furniture_Bedroom                       | 183.75    |
+| Cool_Stuff                              | 167.36    |
+| Kitchen_Dining_Laundry_Garden_Furniture | 164.87    |
+| Office_Furniture                        | 162.01    |
+| Music                                   | 158.80    |
+
+---
+
+## **Q3: Average freight value by category (Top 15)**
+
+**Key Insights**
+
+* Freight costs are highest for **Computers**, **Home Appliances**, and **Furniture categories** due to size, fragility, and shipping insurance.
+* Categories like **Agro Industry**, **Musical Instruments**, and **Office Furniture** also incur higher freight charges.
+* Lowest among the top 15 is **La_Cuisine** (R$ 23.83), reflecting small and lightweight items.
+
+**Avg Freight Table**
+
+| Category                                | Avg Freight |
+| --------------------------------------- | ----------- |
+| Computers                               | 48.45       |
+| Home_Appliances_2                       | 44.54       |
+| Furniture_Mattress_And_Upholstery       | 42.91       |
+| Kitchen_Dining_Laundry_Garden_Furniture | 42.70       |
+| Furniture_Bedroom                       | 42.50       |
+| Office_Furniture                        | 40.55       |
+| Small_Appliances_Home_Oven_And_Coffee   | 36.16       |
+| Furniture_Living_Room                   | 35.72       |
+| Signaling_And_Security                  | 32.70       |
+| Industry_Commerce_And_Business          | 29.42       |
+| Luggage_Accessories                     | 27.88       |
+| Agro_Industry_And_Commerce              | 27.56       |
+| Musical_Instruments                     | 27.54       |
+| Construction_Tools_Lights               | 24.95       |
+| La_Cuisine                              | 23.83       |
+
+---
+
+## **Q4: Most expensive individual products (Top 10)**
+
+**Key Insights**
+
+* The most expensive product sold costs **R$ 6,735**, followed closely by another at **R$ 6,729**.
+* Majority of top 10 high-price products fall in the **R$ 4,000–5,000** range.
+* These are likely premium electronics, high-end appliances, or furniture items.
+
+**Top 10 Expensive Products**
+
+| Product ID     | Max Price |
+| -------------- | --------- |
+| 489e2aa008f... | 6735.00   |
+| 59cc70ffc7b... | 6729.00   |
+| 1dbf55e7e35... | 6499.00   |
+| a6429cxxx...   | 4799.00   |
+| 3ecd049...     | 4699.00   |
+| 9203a7a...     | 4590.00   |
+| aebfff9...     | 4399.87   |
+| 1d162f...      | 4099.99   |
+| dd113...       | 4099.90   |
+| 9af520...      | 3999.90   |
+
+---
+
+## **Q5: Product catalog completeness check**
+
+**Key Insights**
+
+* Only **6 products are missing weight**, which is minimal for a large catalog.
+* Dimensions (**length, height, width**) each have **2 missing values**.
+* Overall product catalog completeness is **very high**, indicating good data quality.
+
+**Missing Data Summary**
+
+| Missing Weight | Missing Length | Missing Height | Missing Width |
+| -------------- | -------------- | -------------- | ------------- |
+| 6              | 2              | 2              | 2             |
+
+---
+
+## **Q6: Product popularity (unique customers per product)**
+
+**Key Insights**
+
+* Most popular product has been purchased by **467 unique customers**, indicating massive repeat selection across the marketplace.
+* Other highly popular items attract **300–430+** unique customers, showing strong product trust and visibility.
+* These products may be ideal candidates for **cross-selling**, **ads**, and **priority stocking**.
+* Popular products do not necessarily correlate with price — these seem to be affordable, high-demand items.
+
+**Top Popular Products**
+
+| Product ID  | Unique Customers |
+| ----------- | ---------------- |
+| 99a478cb... | 467              |
+| aca2be7...  | 431              |
+| 4228790...  | 352              |
+| d1c427...   | 323              |
+| 389d119...  | 311              |
+| 53b36d...   | 306              |
+| 3579ca...   | 291              |
+| 5379a2...   | 287              |
+| 2b4609...   | 259              |
+| 7c1bd0...   | 225              |
+| 7d475...    | 211              |
+| e06c4...    | 194              |
+| f80f2...    | 187              |
+
+---
+
+## **Q7: Highest reviewed product categories (avg score, >100 reviews)**
+
+**Key Insights**
+
+* **Books** categories dominate the highest ratings:
+
+  * **Books General Interest: 4.45**
+  * **Books Technical: 4.37**
+* **Food**, **Luggage Accessories**, and **Fashion Shoes** maintain excellent review scores (~4.22–4.32).
+* Electronics like **Computers** and **Home Appliances** still sustain high satisfaction levels (4.18–4.19).
+* Almost all categories score **above 4.15**, showing strong customer satisfaction across the platform.
+
+**Top Reviewed Categories**
+
+| Category               | Avg Review Score |
+| ---------------------- | ---------------- |
+| Books_General_Interest | 4.45             |
+| Books_Technical        | 4.37             |
+| Food_Drink             | 4.32             |
+| Luggage_Accessories    | 4.32             |
+| Fashion_Shoes          | 4.23             |
+| Food                   | 4.22             |
+| Stationery             | 4.19             |
+| Pet_Shop               | 4.19             |
+| Computers              | 4.18             |
+| Home_Appliances        | 4.17             |
+| Perfumery              | 4.16             |
+| Toys                   | 4.15             |
+| Musical_Instruments    | 4.15             |
+| Cool_Stuff             | 4.15             |
+| Small_Appliances       | 4.15             |
+
+---
+
+

@@ -1,0 +1,28 @@
+15 – CUSTOMER LIFETIME VALUE (CLV) ANALYSIS
+
+Overview: Customer Lifetime Value (CLV) measures total revenue generated
+by a customer, average order value, buying frequency, and customer
+lifetime. It helps identify high-value customers, repeat buyers, and
+overall customer profitability.
+
+Key Metrics: - Total Orders - Total Revenue - Average Order Value
+(AOV) - Customer Lifetime (Days between first and last purchase) -
+Repeat Category (One-Time Buyer, Occasional Buyer, Moderate Repeat, High
+Repeat Customer)
+
+Insights: 1. CLV is highly top-heavy, with some customers generating
+very large single-purchase revenues (R$ 6,000–13,000+). 2. Most
+customers in the dataset are One-Time Buyers, indicating very low repeat
+purchase behavior. 3. Customer lifetime for top buyers is 0 days,
+meaning first and last purchases occurred on the same day. 4. Repeat
+categories: - One-Time Buyer: Majority - Occasional Buyer: Moderate
+count - Moderate Repeat: Small minority - High Repeat: Very rare 5.
+Marketplace behavior indicates customers purchase high-ticket items but
+do not frequently return.
+
+Strategic Recommendations: - Introduce loyalty and retention programs to
+increase repeat buying. - Provide cross-category recommendations based
+on customer purchase history. - Use personalized offers to convert
+high-value one-time buyers into repeat customers. - Reward high-repeat
+customers with exclusive incentives to maintain loyalty. - Improve
+post-purchase engagement through emails, coupons, and reminders.
