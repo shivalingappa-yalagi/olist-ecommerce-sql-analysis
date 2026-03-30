@@ -98,7 +98,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 The database schema illustrates relationships between customers, orders, products, payments, and sellers.
 
-![ER Diagram](05_References/ER_Diagram.png)
+![ER Diagram](references/ER_Diagram.png)
 
 ### Key Relationships:
 
@@ -180,31 +180,24 @@ This project also includes a Power BI dashboard built using the analyzed Olist d
 
 ## 1) Sales Overview Dashboard
 
-![Sales Overview](dashboard\images\sales_overview_dashboard.png)
+![Sales Overview](dashboard/images/sales_overview_dashboard.png)
 
 ## 2) Product Performance Dashboard
 
-<!-- Add image below -->
-
-<!-- Example: ![Product Performance](06_PowerBI_Dashboard/Images/product_performance_dashboard.png) -->
+![Product Performance](dashboard/images/product_performance_dashboard.png)
 
 ## 3) Customer Insights Dashboard
 
-<!-- Add image below -->
-
-<!-- Example: ![Customer Insights](06_PowerBI_Dashboard/Images/customer_insights_dashboard.png) -->
+![Customer Insights](dashboard/images/customer_insights_dashboard.png)
 
 ## 4) Seller Delivery Dashboard
 
-<!-- Add image below -->
-
-<!-- Example: ![Seller Delivery](06_PowerBI_Dashboard/Images/seller_delivery_dashboard.png) -->
+![Seller Delivery](dashboard/images/seller_delivery_dashboard.png)
 
 ## 5) Key Insights Dashboard
 
-<!-- Add image below -->
+![Key Insights](dashboard/images/key_insights.png)
 
-<!-- Example: ![Key Insights](06_PowerBI_Dashboard/Images/key_insights.png) -->
 
 ---
 
