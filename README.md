@@ -1,4 +1,3 @@
-
 ![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
 ![Power BI](https://img.shields.io/badge/Visualization-PowerBI-yellow)
 ![Python](https://img.shields.io/badge/Python-Pandas-green)
@@ -6,108 +5,92 @@
 
 # 📊 Olist E-Commerce Data Analysis – End-to-End SQL Project
 
-A comprehensive SQL-based analysis of the Brazilian **Olist e-commerce marketplace**, exploring customer behavior, product performance, logistics efficiency, payment trends, and seller performance using real-world marketplace data.
+A complete end-to-end data analysis project on the Brazilian **Olist E-Commerce Marketplace** using **SQL, Python, Excel, and Power BI**.
+
+This project focuses on analyzing customer behavior, seller performance, product trends, payment patterns, delivery performance, and business growth using real-world marketplace data.
 
 ---
 
 # 📌 Project Overview
 
-This project presents an **end-to-end data analysis of the Brazilian Olist E-commerce marketplace** using SQL, Python, and Power BI.
+This project presents a complete SQL-based analysis of the Brazilian **Olist E-Commerce dataset**.
 
-The objective is to analyze customer behavior, sales performance, product trends, payment patterns, delivery efficiency, and seller performance to generate actionable business insights.
+The goal of this project is to solve business problems and extract actionable insights related to:
 
-The analysis covers **100K+ orders, 96K+ customers, and 2,900+ sellers** across Brazil.
+* Customer behavior
+* Revenue trends
+* Product performance
+* Payment methods
+* Delivery efficiency
+* Seller performance
+* Retention and customer segmentation
 
-**Analytics Workflow**
+The workflow followed in this project:
 
-Raw Dataset → Data Cleaning → SQL Analysis → Business Insights → Power BI Dashboards
+**Raw Dataset → Data Cleaning → SQL Analysis → Business Insights → Power BI Dashboard**
 
 ---
 
 # 📊 Key Marketplace Metrics
 
-- **Total Revenue:** $15.4M
-- **Total Orders:** 100.8K
-- **Total Customers:** 96.5K
-- **Total Sellers:** 2,970
-- **Average Order Value:** $153
-- **Late Deliveries:** 8,700+
-
----
-
-# 🧠 Business Problem
-
-The Olist marketplace operates with thousands of sellers and customers across Brazil.
-
-Understanding marketplace performance requires insights into:
-
-- Customer purchasing behavior
-- Product category performance
-- Payment preferences
-- Seller logistics performance
-- Customer retention trends
-
-Without analytics, businesses struggle to identify:
-
-- Revenue growth drivers
-- High-performing product categories
-- Delivery bottlenecks
-- Customer churn patterns
-- Regional demand differences
-
-This project analyzes the Olist marketplace dataset to generate **data‑driven insights for better business decisions.**
+* **Total Revenue:** $15.4M
+* **Total Orders:** 100.8K
+* **Total Customers:** 96.5K
+* **Total Sellers:** 2,970
+* **Average Order Value:** $153
+* **Late Deliveries:** 8,700+
 
 ---
 
 # 🎯 Business Objectives
 
-Key questions addressed in this analysis:
+This project answers important business questions such as:
 
-- How is revenue growing over time?
-- Which product categories generate the highest revenue?
-- What payment methods dominate transactions?
-- How strong is customer retention?
-- Which sellers contribute to delivery delays?
-- What geographic regions generate the most customers?
+* How is revenue growing over time?
+* Which product categories generate the highest revenue?
+* What payment methods dominate transactions?
+* How strong is customer retention?
+* Which sellers contribute to delivery delays?
+* What geographic regions generate the most customers?
 
 ---
 
 # 🗂 Dataset Description
 
-Dataset Source  
+**Dataset Source:**
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
-Main tables used:
+### Main tables used:
 
-- customers
-- orders
-- order_items
-- order_payments
-- order_reviews
-- products
-- sellers
-- geolocation
-- product_category_name_translation
+* customers
+* orders
+* order_items
+* order_payments
+* order_reviews
+* products
+* sellers
+* geolocation
+* product_category_name_translation
 
-Dataset size:
+### Dataset Size:
 
-- **100K+ orders**
-- **96K+ customers**
-- **2,900+ sellers**
-- **113K+ products sold**
+* **100K+ orders**
+* **96K+ customers**
+* **2,900+ sellers**
+* **113K+ products sold**
 
 ---
 
 # 🛠 Tools & Technologies
 
-| Purpose | Tool |
-|------|------|
-Database | MySQL |
-SQL Development | MySQL Workbench |
-Data Cleaning | Excel |
-Data Processing | Python (Pandas) |
-Visualization | Power BI |
-Version Control | Git & GitHub |
+| Purpose         | Tool            |
+| --------------- | --------------- |
+| Database        | MySQL           |
+| SQL Development | MySQL Workbench |
+| Data Cleaning   | Excel           |
+| Data Processing | Python (Pandas) |
+| Visualization   | Power BI        |
+| Version Control | Git & GitHub    |
 
 ---
 
@@ -117,189 +100,186 @@ The database schema illustrates relationships between customers, orders, product
 
 ![ER Diagram](05_References/ER_Diagram.png)
 
-Key relationships:
+### Key Relationships:
 
-customers → orders  
-orders → order_items  
-orders → order_payments  
-orders → order_reviews  
-products → order_items  
-sellers → order_items  
-product_category_name_translation → products
+* customers → orders
+* orders → order_items
+* orders → order_payments
+* orders → order_reviews
+* products → order_items
+* sellers → order_items
+* product_category_name_translation → products
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 Olist_SQL_Project
 │
 ├── README.md
 │
-├── 01_Datasets
+├── data
 │   ├── Raw_Dataset
 │   │   └── Original Kaggle dataset files
 │   └── Cleaned_Dataset
 │       └── Data cleaned and prepared for SQL analysis
 │
-├── 02_SQL
-│   ├── Queries
+├── sql_queries
+│   ├── queries
 │   │   └── SQL scripts used for analysis
-│   └── Insights
+│   └── insights
 │       └── Business insights derived from SQL queries
 │
-├── 03_Documentation
+├── docs
 │   ├── Project_Overview.md
 │   ├── Insights_Summary.md
 │   ├── Final_Report_Olist_SQL_Project.md
 │   └── README.md
 │
-├── 04_Query_Results
+├── query_results
 │   ├── CSV_Files
-│   │   └── Raw SQL query outputs
-│   └── Excel_Files
-│       └── Formatted query outputs for reporting
+│        └── Raw SQL query outputs
 │
-├── 05_References
+├── references
 │   ├── ER_Diagram.png
 │   ├── Data_Dictionary.md
 │   └── References.md
 │
-└── 06_PowerBI_Dashboard
-    ├── PBIX_Files
+└── dashboard
+    ├── pbix_files
     │   └── Power BI dashboard source file
     │
-    ├── Images
+    ├── images
     │   └── Dashboard screenshots used in README
     │
-    ├── Exports
+    ├── exports
     │   └── Exported dashboard PDF
     │
-    └── Data_Model
+    └── data_model
         └── Power BI data model relationships
 ```
 
 ---
 
-# 📊 Power BI Dashboards
+# 📊 Power BI Dashboard
 
-## Sales Overview Dashboard
+This project also includes a Power BI dashboard built using the analyzed Olist dataset.
 
-![Sales Overview](06_PowerBI_Dashboard/Images/sales_overview_dashboard.png)
+## Dashboard Sections Included:
 
-Key metrics:
-
-- **Total Revenue:** $15.4M
-- **Total Orders:** 100.8K
-- **Average Order Value:** $153
-- **Revenue Growth:** 6.8%
-
----
-
-## Product Performance Dashboard
-
-![Product Performance](06_PowerBI_Dashboard/Images/product_performance_dashboard.png)
-
-Insights:
-
-- **113K+ products sold**
-- **$15.9M total product revenue**
-- **Beauty & Health category dominates revenue**
-- Clear seasonal trends in product demand
+* Sales Overview
+* Product Performance
+* Customer Insights
+* Seller Delivery Performance
+* Key Insights Summary
 
 ---
 
-## Customer Insights Dashboard
+# 🖼 Dashboard Preview
 
-![Customer Insights](06_PowerBI_Dashboard/Images/customer_insights_dashboard.png)
+## 1) Sales Overview Dashboard
 
-Highlights:
+![Sales Overview](dashboard\images\sales_overview_dashboard.png)
 
-- **96.5K customers analyzed**
-- **Repeat purchase rate ~3%**
-- Majority customers belong to **Lost Customer segment**
-- Cohort analysis shows **low long‑term retention**
+## 2) Product Performance Dashboard
 
----
+<!-- Add image below -->
 
-## Seller Delivery Performance Dashboard
+<!-- Example: ![Product Performance](06_PowerBI_Dashboard/Images/product_performance_dashboard.png) -->
 
-![Seller Delivery](06_PowerBI_Dashboard/Images/seller_delivery_dashboard.png)
+## 3) Customer Insights Dashboard
 
-Key findings:
+<!-- Add image below -->
 
-- **2,970 active sellers**
-- **Average delivery time ~12 days**
-- **8,700+ late deliveries**
-- Small group of sellers contributes to most delivery delays
+<!-- Example: ![Customer Insights](06_PowerBI_Dashboard/Images/customer_insights_dashboard.png) -->
+
+## 4) Seller Delivery Dashboard
+
+<!-- Add image below -->
+
+<!-- Example: ![Seller Delivery](06_PowerBI_Dashboard/Images/seller_delivery_dashboard.png) -->
+
+## 5) Key Insights Dashboard
+
+<!-- Add image below -->
+
+<!-- Example: ![Key Insights](06_PowerBI_Dashboard/Images/key_insights.png) -->
 
 ---
 
 # 📈 Key Business Insights
 
-![Key Insights](06_PowerBI_Dashboard/Images/key_insights.png)
-
 ### Marketplace Performance
 
-- Marketplace generated **$15.4M revenue from 100K+ orders**
-- **Credit cards dominate payments (~78%)**
-- Revenue shows **steady growth trend**
+* Marketplace generated **$15.4M revenue** from **100K+ orders**
+* **Credit cards dominate payments (~78%)**
+* Revenue shows a **steady upward growth trend**
 
 ### Product Insights
 
-- **Beauty & Health** is the top revenue category
-- Strong performance from **Home, Watches, and Sports**
+* **Beauty & Health** is the top revenue-generating category
+* Strong performance from **Home, Watches, and Sports** categories
 
 ### Customer Insights
 
-- **96.5K customers served**
-- **Repeat purchase rate ~3%**
-- Majority users are **one‑time buyers**
+* **96.5K customers** analyzed
+* **Repeat purchase rate is very low (~3%)**
+* Majority of customers are **one-time buyers**
 
 ### Seller Performance
 
-- Platform operates with **2,970 sellers**
-- **Average delivery time ~12 days**
-- **8.7K late deliveries** impact customer satisfaction
+* Platform operates with **2,970 sellers**
+* **Average delivery time is around 12 days**
+* **8.7K late deliveries** impact customer satisfaction
 
 ---
 
 # 📊 Analysis Modules
 
-The project contains **20 SQL analysis modules**, including:
+This project contains **20 SQL analysis modules**, including:
 
-- Customer Distribution Analysis
-- Seller Distribution Analysis
-- Payment Behavior Analysis
-- Product Category Performance
-- Customer RFM Segmentation
-- Delivery Performance Analysis
-- Customer Lifetime Value
-- Revenue Trend Analysis
-- Cohort Retention Analysis
-- Category Seasonality Trends
-- Marketplace Geography Analysis
+* Basic Exploration
+* Order Status Analysis
+* Customer Analysis
+* Seller Analysis
+* Payment Analysis
+* Product Analysis
+* Geolocation Analysis
+* Review Analysis
+* Customer RFM Analysis
+* Customer RFM Segmentation
+* Seller Performance Analysis
+* Delivery Performance Analysis
+* Payment Behavior Analysis
+* Product Category Performance
+* Customer Lifetime Value
+* Revenue Trend Analysis
+* Customer Cohort Retention
+* Category Seasonality Trends
+* Logistics Performance by State
+* Marketplace Geography Analysis
 
 Each module includes:
 
-- SQL queries
-- Exported results
-- Insight summaries
-- Business interpretation
+* SQL queries
+* Query results
+* Insight summaries
+* Business interpretation
 
 ---
 
 # 💡 Skills Demonstrated
 
-✔ SQL Data Analysis  
-✔ Data Cleaning & Preparation  
-✔ Relational Database Analysis  
-✔ Exploratory Data Analysis  
-✔ Customer Segmentation (RFM)  
-✔ Cohort Retention Analysis  
-✔ Business Insight Generation  
-✔ Power BI Dashboard Development  
-✔ End‑to‑End Analytics Workflow
+✔ SQL Data Analysis
+✔ Data Cleaning & Preparation
+✔ Relational Database Analysis
+✔ Exploratory Data Analysis
+✔ Customer Segmentation (RFM)
+✔ Cohort Retention Analysis
+✔ Business Insight Generation
+✔ Power BI Dashboard Development
+✔ End-to-End Analytics Workflow
 
 ---
 
@@ -309,20 +289,18 @@ Each module includes:
 
 Aspiring Data Analyst specializing in:
 
-- SQL
-- Power BI
-- Python (Pandas)
-- Data Analytics
+* SQL
+* Excel
+* Power BI
+* Python
 
 ---
 
 # ⭐ Future Improvements
 
-Potential future extensions:
+Potential future enhancements:
 
-- Customer churn prediction model
-- Delivery delay prediction using machine learning
-- Geographic demand forecasting
-- Advanced customer lifetime value modeling
-
----
+* Customer churn prediction model
+* Delivery delay prediction using machine learning
+* Geographic demand forecasting
+* Advanced customer lifetime value modeling
