@@ -1,3 +1,4 @@
+> This document presents the complete analysis, findings, and conclusions.
 # 📘 **Olist E-Commerce Data Analysis – End-to-End SQL Case Study**
 
 ### **Final Professional Report (Markdown Version)**

@@ -1,3 +1,4 @@
+> This document explains the project background, objectives, and methodology.
 \# \*\*Olist Marketplace Data Analysis – End-to-End SQL Project\*\*
 
 

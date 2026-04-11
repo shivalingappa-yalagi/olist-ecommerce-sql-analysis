@@ -3,11 +3,9 @@
 ![Python](https://img.shields.io/badge/Python-Pandas-green)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-# 📊 Olist E-Commerce Data Analysis – End-to-End SQL Project
+# 📊 Olist E-Commerce Analytics | SQL + Power BI Project
 
-A complete end-to-end data analysis project on the Brazilian **Olist E-Commerce Marketplace** using **SQL, Python, Excel, and Power BI**.
-
-This project focuses on analyzing customer behavior, seller performance, product trends, payment patterns, delivery performance, and business growth using real-world marketplace data.
+End-to-end data analytics project analyzing e-commerce performance, customer behavior, and delivery efficiency using SQL, Python, and Power BI.
 
 ---
 
@@ -25,26 +23,28 @@ The goal of this project is to solve business problems and extract actionable in
 * Seller performance
 * Retention and customer segmentation
 
-The workflow followed in this project:
+## 🔄 Project Workflow
 
-**Raw Dataset → Data Cleaning → SQL Analysis → Business Insights → Power BI Dashboard**
+Raw Data → Data Cleaning → SQL Analysis → Business Insights → Power BI Dashboard → Decision Making
 
 ---
 
 # 📊 Key Marketplace Metrics
 
-* **Total Revenue:** $15.4M
-* **Total Orders:** 100.8K
-* **Total Customers:** 96.5K
-* **Total Sellers:** 2,970
-* **Average Order Value:** $153
-* **Late Deliveries:** 8,700+
+| Metric | Value |
+|------|------|
+| Total Revenue | $15.4M |
+| Total Orders | 100.8K |
+| Total Customers | 96.5K |
+| Total Sellers | 2,970 |
+| Avg Order Value | $153 |
+| Late Deliveries | 8,700+ |
 
 ---
 
 # 🎯 Business Objectives
 
-This project answers important business questions such as:
+Key business questions addressed:
 
 * How is revenue growing over time?
 * Which product categories generate the highest revenue?
@@ -115,49 +115,63 @@ The database schema illustrates relationships between customers, orders, product
 # 📂 Project Structure
 
 ```text
-Olist_SQL_Project
+Olist-E-commerce-SQL-Analysis
+├───README.md
 │
-├── README.md
+├───dashboard
+│   ├───data_model
+│   │       data_model_relationships.png
+│   │
+│   ├───exports
+│   │       olist_marketplace_dashboard.pdf
+│   │
+│   ├───images
+│   │       customer_insights_dashboard.png
+│   │       key_insights.png
+│   │       product_performance_dashboard.png
+│   │       sales_overview_dashboard.png
+│   │       seller_delivery_dashboard.png
+│   │
+│   └───pbix_files
+│           olist_marketplace_dashboard.pbix
 │
-├── data
-│   ├── Raw_Dataset
-│   │   └── Original Kaggle dataset files
-│   └── Cleaned_Dataset
-│       └── Data cleaned and prepared for SQL analysis
+├───data
+│   ├───cleaned
+│   │       olist_customers_dataset_cleaned.csv
+│   │       olist_geolocation_dataset_cleaned.csv
+│   │       .....
+│   │
+│   └───raw
+│           olist_customers_dataset.csv
+│           olist_geolocation_dataset.csv
+│           ....
 │
-├── sql_queries
-│   ├── queries
-│   │   └── SQL scripts used for analysis
-│   └── insights
-│       └── Business insights derived from SQL queries
+├───docs
+│       final_report.md
+│       insights_summary.md
+│       project_overview.md
+│       README.md
 │
-├── docs
-│   ├── Project_Overview.md
-│   ├── Insights_Summary.md
-│   ├── Final_Report_Olist_SQL_Project.md
-│   └── README.md
+├───query_results
+│   └───CSV_Files
+│           01_basic_exploration.Q1.csv
+│           01_basic_exploration.Q2.csv
+│           ....
 │
-├── query_results
-│   ├── CSV_Files
-│        └── Raw SQL query outputs
+├───references
+│       Data_Dictionary.md
+│       ER_Diagram.png
+│       References.md
 │
-├── references
-│   ├── ER_Diagram.png
-│   ├── Data_Dictionary.md
-│   └── References.md
-│
-└── dashboard
-    ├── pbix_files
-    │   └── Power BI dashboard source file
-    │
-    ├── images
-    │   └── Dashboard screenshots used in README
-    │
-    ├── exports
-    │   └── Exported dashboard PDF
-    │
-    └── data_model
-        └── Power BI data model relationships
+└───sql_queries
+    ├───insights
+    │       01_basic_exploration_insights.txt
+    │       02_order_and_delivery_insights.txt
+    │       .....
+    └───queries
+            01_basic_exploration.sql
+            02_order_status_analysis.sql
+            .....
 ```
 
 ---
@@ -262,17 +276,16 @@ Each module includes:
 
 ---
 
-# 💡 Skills Demonstrated
+## 💡 Skills Demonstrated
 
-✔ SQL Data Analysis
-✔ Data Cleaning & Preparation
-✔ Relational Database Analysis
-✔ Exploratory Data Analysis
-✔ Customer Segmentation (RFM)
-✔ Cohort Retention Analysis
-✔ Business Insight Generation
-✔ Power BI Dashboard Development
-✔ End-to-End Analytics Workflow
+- SQL (Advanced Queries, Joins, Window Functions)
+- Data Cleaning & Transformation
+- Exploratory Data Analysis (EDA)
+- Customer Segmentation (RFM)
+- Cohort Retention Analysis
+- Business Insight Generation
+- Power BI Dashboard Development
+- End-to-End Data Analytics Workflow
 
 ---
 
@@ -297,3 +310,9 @@ Potential future enhancements:
 * Delivery delay prediction using machine learning
 * Geographic demand forecasting
 * Advanced customer lifetime value modeling
+
+## 📄 Documentation
+
+- [Project Overview](docs/project_overview.md)
+- [Insights Summary](docs/insights_summary.md)
+- [Final Report](docs/final_report.md)
